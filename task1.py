@@ -11,11 +11,11 @@ def hello_world():
 
 @app.route('/authors')
 def authors():
-	r = requests.get('https://jsonplaceholder.typicode.com/users')
-	r1 = requests.get('https://jsonplaceholder.typicode.com/posts')
-	json_object=r.json()
-	json_object1=r1.json()
-	return render_template('task1-2.html',authors=json_object,posts=json_object1)	
+	req1 = requests.get('https://jsonplaceholder.typicode.com/users')
+	req2 = requests.get('https://jsonplaceholder.typicode.com/posts')
+	json_object1=req1.json()
+	json_object2=req2.json()
+	return render_template('task1-2.html',authors=json_object1,posts=json_object2)	
 
 @app.route('/setcookie', methods = ['POST', 'GET'])
 def setcookie():
@@ -47,8 +47,8 @@ def student_data():
 @app.route('/output', methods = ['POST', 'GET'])
 def display():
    if request.method == 'POST':
-       user = request.form['name']
-       print(user, file=sys.stdout)
+       username = request.form['name']
+       print(username, file=sys.stdout)
    return 'Your Name is displayed on the Terminal.'
 
 if (__name__) == '__main__':
