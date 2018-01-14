@@ -33,10 +33,9 @@ Sub-task 1:
 Sub-task 2:
 
         Task: Add a route, for e.g. http://localhost:8080/authors, which:
-	 
-	 1. fetches a list of authors from a request to https://jsonplaceholder.typicode.com/users
-         2. fetches a list of posts from a request to https://jsonplaceholder.typicode.com/posts
-         3. Respond with only a list of authors and the count of their posts (a newline for each author).
+              1. fetches a list of authors from a request to https://jsonplaceholder.typicode.com/users
+              2. fetches a list of posts from a request to https://jsonplaceholder.typicode.com/posts
+              3. Respond with only a list of authors and the count of their posts (a newline for each author).
 
         Steps for execution:
           • Enter http://localhost:8080/authors in the search bar of your browser.
@@ -65,8 +64,8 @@ Sub-task 4:
 
 Sub-task 5: 
 
-        Task: Deny requests to your http://localhost:8080/robots.txt page. (or you can use the response at http://httpbin.org/deny if           needed)
-	
+        Task: Deny requests to your http://localhost:8080/robots.txt page. (or you can use the response at http://httpbin.org/deny if           needed).
+
 	Steps for execution:
           • Enter http://localhost:8080/robots.txt in the search bar of your browser.
           • The rendered HTML page will deny access.
