@@ -49,7 +49,7 @@ Sub-task 3:
         Steps for execution:
           • Enter http://localhost:8080/setcookie in the search bar of your browser.
           • After entering the above URL, you will be redirected to the task1-3.html which is situated in the templates folder. 
-          • The rendered html page will show that cookie is set, further, if you wish to read the cookie, you may “Click here to readt he cookie”.
+          • The rendered html page will show that cookie is set, further, if you wish to read the cookie, you may “Click here to read the cookie”.
 
 Sub-task 4: 
 
