@@ -24,7 +24,7 @@ Note:
 
 Sub-task 1:
 
-        Task: A simple hello-world at http://localhost:8080/ that displays a simple string like "Hello World - Arpit"; replace "Arpit" 		with your own first name). 
+        Task: A simple hello-world at http://localhost:8080/ that displays a simple string like "Hello World - Arpit"; replace "Arpit" 	with your own first name). 
         
 	Steps for execution:
           •  Enter http://localhost:8080/ in the search bar of your browser.
@@ -64,7 +64,7 @@ Sub-task 4:
 
 Sub-task 5: 
 
-        Task: Deny requests to your http://localhost:8080/robots.txt page. (or you can use the response at http://httpbin.org/deny if   needed).
+        Task: Deny requests to your http://localhost:8080/robots.txt page. (or you can use the response at http://httpbin.org/deny if needed).
 
 	Steps for execution:
           • Enter http://localhost:8080/robots.txt in the search bar of your browser.
@@ -82,7 +82,7 @@ Sub-task 6:
 
 Sub-task 7: 
 
-        Task: A text box at http://localhost:8080/input which sends the data as POST to any endpoint of your choice. This endpoint 	should log the received the received to stdout. 
+        Task: A text box at http://localhost:8080/input which sends the data as POST to any endpoint of your choice. This endpoint should log the received the received to stdout. 
 
 	Steps for execution:
           • Enter http://localhost:8080/input in the search bar of your browser.
