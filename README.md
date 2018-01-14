@@ -10,26 +10,31 @@ Note:
     • Flask installation guide: http://flask.pocoo.org/docs/0.12/installation/
 
 Steps: 
+
         1. Download the task1.py and templates folder.
         2. Paste the task1.py and templates folder in the same folder.
         3. Run the task.py in the virtual environment.
         4. Follow the further instructions according to the tasks designated:
 
 Note: 
+
         http://localhost:8080/ is just an example, use the default ports on your local machine which 
         can be seen once you run task1.py in the virtual environment.
 
 Sub-task 1:
+
         A simple hello-world at http://localhost:8080/ that displays a simple string like "Hello World - Arpit"; replace "Arpit" with your own first name). 
-        Steps for execution:
+        
+	Steps for execution:
           •  Enter http://localhost:8080/ in the search bar of your browser.
 
 
 Sub-task 2:
+
         Add a route, for e.g. http://localhost:8080/authors, which:
-          1. fetches a list of authors from a request to https://jsonplaceholder.typicode.com/users
-          2. fetches a list of posts from a request to https://jsonplaceholder.typicode.com/posts
-          3. Respond with only a list of authors and the count of their posts (a newline for each author).
+	 1. fetches a list of authors from a request to https://jsonplaceholder.typicode.com/users
+         2. fetches a list of posts from a request to https://jsonplaceholder.typicode.com/posts
+         3. Respond with only a list of authors and the count of their posts (a newline for each author).
 
         Steps for execution:
           • Enter http://localhost:8080/authors in the search bar of your browser.
@@ -37,6 +42,7 @@ Sub-task 2:
 		
 
 Sub-task 3: 
+
         Set a simple cookie (if it has not already been set) at http://localhost:8080/setcookie with the following values: name=<your-           first-name> and age=<your-age>.
 
         Steps for execution:
@@ -45,6 +51,7 @@ Sub-task 3:
           • The rendered html page will show that cookie is set, further, if you wish to read the cookie, you may “Click here to read               the cookie”.
 
 Sub-task 4: 
+
         Fetch the set cookie with http://localhost:8080/getcookies and display the stored key-values in it.
 
         Steps for execution:
@@ -55,6 +62,7 @@ Sub-task 4:
 
 
 Sub-task 5: 
+
         Deny requests to your http://localhost:8080/robots.txt page. (or you can use the response at http://httpbin.org/deny if needed)
 	
 	      Steps for execution:
@@ -63,6 +71,7 @@ Sub-task 5:
 
 
 Sub-task 6: 
+
         Render an HTML page at http://localhost:8080/html or an image at http://localhost:8080/image.
 
 	      Steps for execution:
@@ -71,6 +80,7 @@ Sub-task 6:
 
 
 Sub-task 7: 
+
         A text box at http://localhost:8080/input which sends the data as POST to any endpoint of your choice. This endpoint should log         the received the received to stdout. 
 
 	      Steps for execution:
