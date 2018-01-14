@@ -7,7 +7,7 @@ Prerequisites:
 Note:
 
     In case any of the above is not installed on your computer, you may use the following links:
-    • Download Python3 from https://www.python.org/downloads/.
+    • Download Python3 from https://www.python.org/downloads/
     • Flask installation guide: http://flask.pocoo.org/docs/0.12/installation/
 
 Steps: 
@@ -17,14 +17,14 @@ Steps:
         3. Run the task.py in the virtual environment.
         4. Follow the further instructions according to the tasks designated:
 
-Note: 
+Note:                
 
-	http://localhost:8080/ is just an example, use the default ports on your local machine which 
-        can be seen once you run task1.py in the virtual environment.
+     http://localhost:8080/ is just an example, use the default ports on your local machine which 
+     can be seen once you run task1.py in the virtual environment.
 
 Sub-task 1:
 
-        Task: A simple hello-world at http://localhost:8080/ that displays a simple string like "Hello World - Arpit"; replace "Arpit" 	with your own first name). 
+        Task: A simple hello-world at http://localhost:8080/ that displays a simple string like "Hello World - Arpit"; replace "Arpit"   with your own first name).          
         
 	Steps for execution:
           •  Enter http://localhost:8080/ in the search bar of your browser.
