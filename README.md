@@ -5,6 +5,7 @@ Prerequisites:
     • Python3 and Flask should be installed on your computer.
 
 Note:
+
     In case any of the above is not installed on your computer, you may use the following links:
     • Download Python3 from https://www.python.org/downloads/.
     • Flask installation guide: http://flask.pocoo.org/docs/0.12/installation/
@@ -18,12 +19,12 @@ Steps:
 
 Note: 
 
-        http://localhost:8080/ is just an example, use the default ports on your local machine which 
+	http://localhost:8080/ is just an example, use the default ports on your local machine which 
         can be seen once you run task1.py in the virtual environment.
 
 Sub-task 1:
 
-        A simple hello-world at http://localhost:8080/ that displays a simple string like "Hello World - Arpit"; replace "Arpit" with your own first name). 
+        Task: A simple hello-world at http://localhost:8080/ that displays a simple string like "Hello World - Arpit"; replace "Arpit" with your own first name). 
         
 	Steps for execution:
           •  Enter http://localhost:8080/ in the search bar of your browser.
@@ -31,7 +32,8 @@ Sub-task 1:
 
 Sub-task 2:
 
-        Add a route, for e.g. http://localhost:8080/authors, which:
+        Task: Add a route, for e.g. http://localhost:8080/authors, which:
+	 
 	 1. fetches a list of authors from a request to https://jsonplaceholder.typicode.com/users
          2. fetches a list of posts from a request to https://jsonplaceholder.typicode.com/posts
          3. Respond with only a list of authors and the count of their posts (a newline for each author).
@@ -43,7 +45,7 @@ Sub-task 2:
 
 Sub-task 3: 
 
-        Set a simple cookie (if it has not already been set) at http://localhost:8080/setcookie with the following values: name=<your-           first-name> and age=<your-age>.
+        Task: Set a simple cookie (if it has not already been set) at http://localhost:8080/setcookie with the following values: name=	         <your-first-name> and age=<your-age>.
 
         Steps for execution:
           • Enter http://localhost:8080/setcookie in the search bar of your browser.
@@ -52,7 +54,7 @@ Sub-task 3:
 
 Sub-task 4: 
 
-        Fetch the set cookie with http://localhost:8080/getcookies and display the stored key-values in it.
+        Task: Fetch the set cookie with http://localhost:8080/getcookies and display the stored key-values in it.
 
         Steps for execution:
           • Enter http://localhost:8080/setcookie in the search bar of your browser.
@@ -63,27 +65,27 @@ Sub-task 4:
 
 Sub-task 5: 
 
-        Deny requests to your http://localhost:8080/robots.txt page. (or you can use the response at http://httpbin.org/deny if needed)
+        Task: Deny requests to your http://localhost:8080/robots.txt page. (or you can use the response at http://httpbin.org/deny if           needed)
 	
-	      Steps for execution:
+	Steps for execution:
           • Enter http://localhost:8080/robots.txt in the search bar of your browser.
           • The rendered HTML page will deny access.
 
 
 Sub-task 6: 
 
-        Render an HTML page at http://localhost:8080/html or an image at http://localhost:8080/image.
+        Task: Render an HTML page at http://localhost:8080/html or an image at http://localhost:8080/image.
 
-	      Steps for execution:
+	Steps for execution:
           • Enter http://localhost:8080/html in the search bar of your browser.
           • The rendered HTML page will contain a poem.
 
 
 Sub-task 7: 
 
-        A text box at http://localhost:8080/input which sends the data as POST to any endpoint of your choice. This endpoint should log         the received the received to stdout. 
+        Task: A text box at http://localhost:8080/input which sends the data as POST to any endpoint of your choice. This endpoint 		should log the received the received to stdout. 
 
-	      Steps for execution:
+	Steps for execution:
           • Enter http://localhost:8080/input in the search bar of your browser.
           • Once the page loads, enter your name and click submit.
           • After clicking on submit, you will be directed to http://localhost:8080/output
