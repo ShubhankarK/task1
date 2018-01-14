@@ -64,9 +64,9 @@ Sub-task 4:
 
 Sub-task 5: 
 
-        Task: Deny requests to your http://localhost:8080/robots.txt page. (or you can use the response at http://httpbin.org/deny if needed).
+        Task: Deny requests to your http://localhost:8080/robots.txt page. (or you can use the response at http://httpbin.org/deny if needed)
 
-	Steps for execution:
+        Steps for execution:
           • Enter http://localhost:8080/robots.txt in the search bar of your browser.
           • The rendered HTML page will deny access.
 
@@ -75,7 +75,7 @@ Sub-task 6:
 
         Task: Render an HTML page at http://localhost:8080/html or an image at http://localhost:8080/image.
 
-	Steps for execution:
+        Steps for execution:
           • Enter http://localhost:8080/html in the search bar of your browser.
           • The rendered HTML page will contain a poem.
 
@@ -84,11 +84,11 @@ Sub-task 7:
 
         Task: A text box at http://localhost:8080/input which sends the data as POST to any endpoint of your choice. This endpoint should log the received the received to stdout. 
 
-	Steps for execution:
+        Steps for execution:
           • Enter http://localhost:8080/input in the search bar of your browser.
           • Once the page loads, enter your name and click submit.
           • After clicking on submit, you will be directed to http://localhost:8080/outputwhich displays “Your name is displayed on the Terminal.”
-          • Check your Terminal like cmd in which you started the virtual environment and executed the task1.py, the name you entered   will be displayed there.
+          • Check your Terminal like cmd in which you started the virtual environment and executed the task1.py, the name you entered will be displayed there.
 
 
 
