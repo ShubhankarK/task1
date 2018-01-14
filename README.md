@@ -24,7 +24,7 @@ Note:
 
 Sub-task 1:
 
-        Task: A simple hello-world at http://localhost:8080/ that displays a simple string like "Hello World - Arpit"; replace "Arpit" with your own first name). 
+        Task: A simple hello-world at http://localhost:8080/ that displays a simple string like "Hello World - Arpit"; replace "Arpit" 		with your own first name). 
         
 	Steps for execution:
           •  Enter http://localhost:8080/ in the search bar of your browser.
@@ -44,12 +44,12 @@ Sub-task 2:
 
 Sub-task 3: 
 
-        Task: Set a simple cookie (if it has not already been set) at http://localhost:8080/setcookie with the following values: name=	         <your-first-name> and age=<your-age>.
+        Task: Set a simple cookie (if it has not already been set) at http://localhost:8080/setcookie with the following values: name=<your-first-name> and age=<your-age>.
 
         Steps for execution:
           • Enter http://localhost:8080/setcookie in the search bar of your browser.
           • After entering the above URL, you will be redirected to the task1-3.html which is situated in the templates folder. 
-          • The rendered html page will show that cookie is set, further, if you wish to read the cookie, you may “Click here to read               the cookie”.
+          • The rendered html page will show that cookie is set, further, if you wish to read the cookie, you may “Click here to read  the cookie”.
 
 Sub-task 4: 
 
@@ -59,12 +59,12 @@ Sub-task 4:
           • Enter http://localhost:8080/setcookie in the search bar of your browser.
           • After entering the above URL, you will be redirected to the task1-3.html which is situated in the templates folder. 
           • The rendered html page will show that cookie is set. Click on “Click here to read the cookie.”.
-          • After clicking on “Click here to read the cookie.”, you will be redirected to http://localhost:8080/getcookies, where you               will see the cookie.
+          • After clicking on “Click here to read the cookie.”, you will be redirected to http://localhost:8080/getcookies, where you    will see the cookie.
 
 
 Sub-task 5: 
 
-        Task: Deny requests to your http://localhost:8080/robots.txt page. (or you can use the response at http://httpbin.org/deny if           needed).
+        Task: Deny requests to your http://localhost:8080/robots.txt page. (or you can use the response at http://httpbin.org/deny if   needed).
 
 	Steps for execution:
           • Enter http://localhost:8080/robots.txt in the search bar of your browser.
@@ -82,14 +82,13 @@ Sub-task 6:
 
 Sub-task 7: 
 
-        Task: A text box at http://localhost:8080/input which sends the data as POST to any endpoint of your choice. This endpoint 		should log the received the received to stdout. 
+        Task: A text box at http://localhost:8080/input which sends the data as POST to any endpoint of your choice. This endpoint 	should log the received the received to stdout. 
 
 	Steps for execution:
           • Enter http://localhost:8080/input in the search bar of your browser.
           • Once the page loads, enter your name and click submit.
-          • After clicking on submit, you will be directed to http://localhost:8080/output
-            which displays “Your name is displayed on the Terminal.”
-          • Check your Terminal like cmd in which you started the virtual environment and executed the task1.py, the name you entered               will be displayed there.
+          • After clicking on submit, you will be directed to http://localhost:8080/outputwhich displays “Your name is displayed on the Terminal.”
+          • Check your Terminal like cmd in which you started the virtual environment and executed the task1.py, the name you entered   will be displayed there.
 
 
 
