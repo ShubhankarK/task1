@@ -23,9 +23,9 @@ Note:
      can be seen once you run task1.py in the virtual environment.
 
 Sub-task 1:
-
+	'''
         Task: A simple hello-world at http://localhost:8080/ that displays a simple string like "Hello World - Arpit"; replace "Arpit"   with your own first name).          
-        
+        '''
 	Steps for execution:
           •  Enter http://localhost:8080/ in the search bar of your browser.
 
